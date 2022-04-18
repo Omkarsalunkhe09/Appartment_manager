@@ -36,7 +36,7 @@ export const Register = () => {
       <div>
         <h1>Sign-up</h1>
         <br />
-        <form onSubmit={registerUser}>
+        <form>
           <input
             value={name}
             onChange={(e) => setName(e.target.value)}
